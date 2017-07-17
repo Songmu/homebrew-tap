@@ -2,7 +2,7 @@ HOMEBREW_GHG_VERSION='0.1.0'
 class Ghg < Formula
   homepage 'https://github.com/Songmu/ghg'
   version HOMEBREW_GHG_VERSION
-  url "https://github.com/Songmu/ghg/releases/download/v#{HOMEBREW_GHG_VERSION}/ghg_darwin_amd64.zip"
+  url "https://github.com/Songmu/ghg/releases/download/v#{HOMEBREW_GHG_VERSION}/ghg_#{HOMEBREW_GHG_VERSION}_darwin_amd64.zip"
   sha256 'd50e40799e43f5c1b1b9a651ad5c30df66d32af78a5280b32f8c12b54e7cf2c2'
 
   head do
