@@ -17,12 +17,10 @@ class Goxz < Formula
         'GOPATH' => buildpath,
         'PATH'   => "#{gobin}:#{ENV['PATH']}",
       })
-      puts ENV['PATH']
-      puts buildpath
       mkdir_p buildpath/'src/github.com/Songmu'
       ln_s buildpath, buildpath/"src/github.com/Songmu/#{@@name}"
-      system 'make', 'deps'
-      system 'make', 'build'
+      system 'go', 'get', '-d', '-v', './...'
+      system 'go', 'build', "./cmd/#{@@name}"
     end
 
     bin.install @@name
