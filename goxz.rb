@@ -13,7 +13,8 @@ class Goxz < Formula
   def install
     if build.head?
       ENV['GOPATH'] = buildpath
-      ENV.update {'PATH' => buildpath/"bin:#{ENV['PATH']}"}
+      gopath = buildpath/"bin"
+      system 'export', "PATH=#{gopath}:$PATH")
       puts ENV['PATH']
       puts buildpath
       mkdir_p buildpath/'src/github.com/Songmu'
