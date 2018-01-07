@@ -6,7 +6,7 @@ class Goxz < Formula
   sha256 '5b4cdb7b0862484114d9ef21dd5dc016c194c2314d13e2a129f9ed5fbe01f411'
 
   head do
-    "https://github.com/Songmu/#{@@name}.git"
+    url "https://github.com/Songmu/#{@@name}.git"
     depends_on 'go' => :build
   end
 
