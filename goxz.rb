@@ -14,7 +14,7 @@ class Goxz < Formula
     if build.head?
       ENV['GOPATH'] = buildpath
       gopath = buildpath/"bin"
-      system 'export', "PATH=#{gopath}:$PATH")
+      system 'export', "PATH=#{gopath}:$PATH"
       puts ENV['PATH']
       puts buildpath
       mkdir_p buildpath/'src/github.com/Songmu'
