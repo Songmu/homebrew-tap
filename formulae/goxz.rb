@@ -1,9 +1,9 @@
 class Goxz < Formula
   name = 'goxz'
-  version '0.1.0'
+  version '0.1.1'
   homepage "https://github.com/Songmu/#{name}"
   url "https://github.com/Songmu/#{name}/releases/download/v#{version}/#{name}_v#{version}_darwin_amd64.zip"
-  sha256 '1449899f3e49615b4cbb17493a2f63b88a7489bb4ffb0b0b7a9992e6508cab38'
+  sha256 '5e62f368fcd737d14d9d4889c9b649091aa0281e15c77f0c047a9fe1628a4e2a'
 
   head do
     url "https://github.com/Songmu/#{name}.git"
