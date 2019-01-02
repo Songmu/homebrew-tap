@@ -1,8 +1,8 @@
 class Tmclean < Formula
-  version '0.0.1'
+  version '0.0.2'
   homepage 'https://github.com/Songmu/App-tmclean'
-  url "https://github.com/Songmu/App-tmclean/releases/download/v0.0.1/tmclean_v0.0.1_darwin_amd64.zip"
-  sha256 '6ff205f6e53682cc406aca7a13a0fc00d12909efbc7293119b2cb5695c19392c'
+  url "https://github.com/Songmu/App-tmclean/releases/download/v0.0.2/tmclean_v0.0.2_darwin_amd64.zip"
+  sha256 'd7245fbd573ee92d68f3d74062a3d258e9963efd7ae185e96f91026e26386787'
   head 'https://github.com/Songmu/App-tmclean.git'
 
   def install
