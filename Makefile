@@ -1,4 +1,4 @@
 update:
-	@for i in $$(\ls ./Formula/); do maltmill -w Formula/$$i; done
+	maltmill -w $$(find Formula -name '*.rb' -type f)
 
 .PHONY: update
