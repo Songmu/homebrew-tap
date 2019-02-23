@@ -1,8 +1,8 @@
 class Godzil < Formula
-  version '0.1.0'
+  version '0.1.1'
   homepage 'https://github.com/Songmu/godzil'
-  url "https://github.com/Songmu/godzil/releases/download/v0.1.0/godzil_v0.1.0_darwin_amd64.zip"
-  sha256 '7345efb5828352ee26f59e12c895c12c746a48b169cd5b0606b045a1276223a1'
+  url "https://github.com/Songmu/godzil/releases/download/v0.1.1/godzil_v0.1.1_darwin_amd64.zip"
+  sha256 '55a39d97a4d53eced34b8df55ab1c79537d0560109f0577405ea9d939dad9bdc'
   head 'https://github.com/Songmu/godzil.git'
 
   def install
