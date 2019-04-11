@@ -6,7 +6,7 @@ class Gocredits < Formula
   head 'https://github.com/Songmu/gocredits.git'
 
   head do
-    depands_on 'go' => :build
+    depends_on 'go' => :build
   end
 
   def install
