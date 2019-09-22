@@ -1,8 +1,8 @@
 class Gocredits < Formula
-  version '0.0.6'
+  version '0.0.7'
   homepage 'https://github.com/Songmu/gocredits'
-  url "https://github.com/Songmu/gocredits/releases/download/v0.0.6/gocredits_v0.0.6_darwin_amd64.zip"
-  sha256 '1b79eec16162905d8ff357d9133f640b308c01ada2b8fbef67ce1556c4f0f19c'
+  url "https://github.com/Songmu/gocredits/releases/download/v0.0.7/gocredits_v0.0.7_darwin_amd64.zip"
+  sha256 '7b20f5d4597e27851595d45e1934b0a38450569032b9fd633a9c92313e5a0d2e'
   head 'https://github.com/Songmu/gocredits.git'
 
   head do
