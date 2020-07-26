@@ -1,8 +1,8 @@
 class Kibelasync < Formula
-  version '0.0.7'
+  version '0.1.0'
   homepage 'https://github.com/Songmu/kibelasync'
-  url "https://github.com/Songmu/kibelasync/releases/download/v0.0.7/kibelasync_v0.0.7_darwin_amd64.zip"
-  sha256 '5e0a59ee61c2de85fc70af3c804f1f9e5bd510932042eba8402100548380b589'
+  url "https://github.com/Songmu/kibelasync/releases/download/v0.1.0/kibelasync_v0.1.0_darwin_amd64.zip"
+  sha256 '758f07a1073c6924a4c09b167b413b915e623c342920092d655a7eb21cdd443b'
   head 'https://github.com/Songmu/kibelasync.git'
 
   head do
