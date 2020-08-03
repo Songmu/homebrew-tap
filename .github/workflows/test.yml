@@ -1,0 +1,19 @@
+name: test
+on: push
+
+jobs:
+  test:
+    name: test
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch origin master
+          git diff origin/master --name-only | fgrep .rb \
+          | xargs -n 1 brew install --build-from-source
