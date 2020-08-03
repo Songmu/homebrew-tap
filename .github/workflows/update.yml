@@ -1,0 +1,33 @@
+name: update
+on:
+  schedule:
+    - cron: "29 0,9 * * *"
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: update
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install maltmill
+        run: |
+          brew install Songmu/tap/maltmill
+      - name: update & pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          make update
+          git diff --exit-code --quiet && exit
+          git diff --name-only | xargs -n 1 brew install --build-from-source
+          git add *.rb
+          git config --global user.email y.songmu@gmail.com
+          git config --global user.name Songmu
+          git commit -m 'update to newer version'
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: update to newer version
