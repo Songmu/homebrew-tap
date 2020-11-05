@@ -1,13 +1,13 @@
 class Ecsched < Formula
-  version '0.1.0'
+  version '0.1.1'
   homepage 'https://github.com/Songmu/ecsched'
   if OS.mac?
-    url "https://github.com/Songmu/ecsched/releases/download/v0.1.0/ecsched_v0.1.0_darwin_amd64.zip"
-    sha256 'b22bab0e67632b0e7a04b1a37607d6b577e6d8c7660c6a1a3f1bb60fb7f29fe4'
+    url "https://github.com/Songmu/ecsched/releases/download/v0.1.1/ecsched_v0.1.1_darwin_amd64.zip"
+    sha256 'f280ca5e10bda9ddaa63bbb09d820dfcee462b5fbc1c8d43e033b708742c2557'
   end
   if OS.linux?
-    url "https://github.com/Songmu/ecsched/releases/download/v0.1.0/ecsched_v0.1.0_linux_amd64.tar.gz"
-    sha256 '8cf7c5b7613cf7f1a6ed502a0308656508684feb3ecfba5763c8b4d54d9b6513'
+    url "https://github.com/Songmu/ecsched/releases/download/v0.1.1/ecsched_v0.1.1_linux_amd64.tar.gz"
+    sha256 '9c5ce96c8373eebb7d2c2d3fa970892235704b328b6db2200974f43d8d3730b4'
   end
   head 'https://github.com/Songmu/ecsched.git'
 
