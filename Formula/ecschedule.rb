@@ -1,4 +1,4 @@
-class ecschedule < Formula
+class Ecschedule < Formula
   version '0.2.0'
   homepage 'https://github.com/Songmu/ecschedule'
   if OS.mac?
