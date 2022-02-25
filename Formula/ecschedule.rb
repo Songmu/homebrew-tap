@@ -1,13 +1,13 @@
 class Ecschedule < Formula
-  version '0.3.2'
+  version '0.4.0'
   homepage 'https://github.com/Songmu/ecschedule'
   if OS.mac?
-    url "https://github.com/Songmu/ecschedule/releases/download/v0.3.2/ecschedule_v0.3.2_darwin_amd64.zip"
-    sha256 'd11c09d933ffa87e73ed13f8e66b706586dcbb39048ecf89ae13d33be26a0e52'
+    url "https://github.com/Songmu/ecschedule/releases/download/v0.4.0/ecschedule_v0.4.0_darwin_amd64.zip"
+    sha256 '03c0a99ec335d28b0c6b609e356b660eab0bef6fd40329d1aab9671173e7c388'
   end
   if OS.linux?
-    url "https://github.com/Songmu/ecschedule/releases/download/v0.3.2/ecschedule_v0.3.2_linux_amd64.tar.gz"
-    sha256 'd1216f731d5ee291e85f214da822e522130eaf7d6bfed91074688765c0cb130f'
+    url "https://github.com/Songmu/ecschedule/releases/download/v0.4.0/ecschedule_v0.4.0_linux_amd64.tar.gz"
+    sha256 '60ddc234137a79a08b5199ec1c3f3a888ea983ea78453eab9b758fbac57bbfa8'
   end
   head 'https://github.com/Songmu/ecschedule.git'
 
