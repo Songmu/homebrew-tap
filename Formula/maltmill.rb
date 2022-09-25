@@ -1,8 +1,8 @@
 class Maltmill < Formula
-  version '0.5.7'
+  version '0.5.8'
   homepage 'https://github.com/Songmu/maltmill'
-  url "https://github.com/Songmu/maltmill/releases/download/v0.5.7/maltmill_v0.5.7_darwin_amd64.zip"
-  sha256 '2af4eec3a80441e016514726efe630fac57ee30855b1f7c83f82c76e07f167e2'
+  url "https://github.com/Songmu/maltmill/releases/download/v0.5.8/maltmill_v0.5.8_darwin_amd64.zip"
+  sha256 'f440a986f7d51aff197a11b76ef278733d95c8e1192cac9f8f0c99bb65c4b2d7'
   head 'https://github.com/Songmu/maltmill.git'
 
   head do
