@@ -1,26 +1,26 @@
 class Ecschedule < Formula
-  version '0.6.3'
+  version '0.7.0'
   homepage 'https://github.com/Songmu/ecschedule'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/ecschedule/releases/download/v0.6.3/ecschedule_v0.6.3_darwin_arm64.zip'
-      sha256 '8a05133351449feeb6c1d54199f0207afbb432f2303e1997fab99b66dda06986'
+      url 'https://github.com/Songmu/ecschedule/releases/download/v0.7.0/ecschedule_v0.7.0_darwin_arm64.zip'
+      sha256 '1cdf0ba2c73fbcdc2ed58ad451289f60b79207255deee8f281cebf22373d8c0a'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/ecschedule/releases/download/v0.6.3/ecschedule_v0.6.3_darwin_amd64.zip'
-      sha256 '574802f21372d2360c7ab9bab5620af15882bec757953dd76314a3145b9d1f2f'
+      url 'https://github.com/Songmu/ecschedule/releases/download/v0.7.0/ecschedule_v0.7.0_darwin_amd64.zip'
+      sha256 'ccfb96cbd1c8e136437d5c72bc62adbc2e793611a6e7e28dd24566ab62dfcb32'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/ecschedule/releases/download/v0.6.3/ecschedule_v0.6.3_linux_arm64.tar.gz'
-      sha256 '843eb84ace06c23deda5786db890273a08768518df4323d4bb3faf4ec35bd9c5'
+      url 'https://github.com/Songmu/ecschedule/releases/download/v0.7.0/ecschedule_v0.7.0_linux_arm64.tar.gz'
+      sha256 '4fa389f2ce6f3dd0750b25c73569a1ab67e9004a38c8aec1f26e5dcd2ce8fbf5'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/ecschedule/releases/download/v0.6.3/ecschedule_v0.6.3_linux_amd64.tar.gz'
-      sha256 '549cd08ba29cb33544c2082cd9b2f9872706628c986badbdb3bd604394b86afe'
+      url 'https://github.com/Songmu/ecschedule/releases/download/v0.7.0/ecschedule_v0.7.0_linux_amd64.tar.gz'
+      sha256 'f434da6003ac0ed303adefaf421c42c01e6c6436bb828bdc10b91c306cc527d4'
     end
   end
 
