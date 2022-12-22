@@ -1,8 +1,8 @@
 class Blogsync < Formula
-  version '0.12.1'
+  version '0.12.3'
   homepage 'https://github.com/motemen/blogsync'
-  url "https://github.com/x-motemen/blogsync/releases/download/v0.12.1/blogsync_v0.12.1_darwin_amd64.zip"
-  sha256 'f132c61c99bce2c3840b70165083af6693691d0ed7cb4da3599ff3c7b85775f9'
+  url "https://github.com/x-motemen/blogsync/releases/download/v0.12.3/blogsync_v0.12.3_darwin_amd64.zip"
+  sha256 '0f714449f1eeaf982c4f1802f2204e6b622bee3e0d3b45ea5370c01062d1d7e5'
   head 'https://github.com/motemen/blogsync.git'
 
   def install
