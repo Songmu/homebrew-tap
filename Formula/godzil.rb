@@ -1,26 +1,26 @@
 class Godzil < Formula
-  version '0.20.12'
+  version '0.20.13'
   homepage 'https://github.com/Songmu/godzil'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/godzil/releases/download/v0.20.12/godzil_v0.20.12_darwin_arm64.zip'
-      sha256 'be4eb8d3cf15813dd72f9cc104c71a920022d9de8846e0ec0b47d9791ddd95c4'
+      url 'https://github.com/Songmu/godzil/releases/download/v0.20.13/godzil_v0.20.13_darwin_arm64.zip'
+      sha256 'b44c53cbfff5fe4bc8dd0fc03b7fdb233c0745ba361529ae99e6c6736434f691'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/godzil/releases/download/v0.20.12/godzil_v0.20.12_darwin_amd64.zip'
-      sha256 '0fc5716e6bfab1ae23af16673a6f6ccb3add489602e5bbf249a2741c2069afe1'
+      url 'https://github.com/Songmu/godzil/releases/download/v0.20.13/godzil_v0.20.13_darwin_amd64.zip'
+      sha256 'e8267dd458523825e51a5d686b19f78d5ff973ab4f85f5d438b83886831fe041'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/godzil/releases/download/v0.20.12/godzil_v0.20.12_linux_arm64.tar.gz'
-      sha256 'cdf3b1ba5132c7030c46a958bc27e26fd2e7eeeb03cda2912a594e66acfb03ce'
+      url 'https://github.com/Songmu/godzil/releases/download/v0.20.13/godzil_v0.20.13_linux_arm64.tar.gz'
+      sha256 '6c600a1d6583a4c4b58c19d7b965b03426b34a48d2b70982078a3f4ab10e088f'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/godzil/releases/download/v0.20.12/godzil_v0.20.12_linux_amd64.tar.gz'
-      sha256 'c142d1abf4471065fe8b13fd4987e28495509fd0b407fa45fa5ddc14add98786'
+      url 'https://github.com/Songmu/godzil/releases/download/v0.20.13/godzil_v0.20.13_linux_amd64.tar.gz'
+      sha256 'a40289eb0684123d1ea25516ed866e1ce3e6e6b59e44cbbb4c89e807b5594dd7'
     end
   end
 
