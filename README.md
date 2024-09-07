@@ -14,6 +14,7 @@ Third party homebrew tap to install the tools Songmu is involved in developing.
 ```
 
 ## Tools we provide
+- podbard
 - blogsync
 - ecschedule
 - gh2changelog
