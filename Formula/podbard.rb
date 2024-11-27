@@ -1,26 +1,26 @@
 class Podbard < Formula
-  version '0.0.13'
+  version '0.0.14'
   homepage 'https://github.com/Songmu/podbard'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/podbard/releases/download/v0.0.13/podbard_v0.0.13_darwin_arm64.zip'
-      sha256 '53d180b657d0e4f1c8fc276a6f322424587d6c44a336f4e544fa8f6eca30a124'
+      url 'https://github.com/Songmu/podbard/releases/download/v0.0.14/podbard_v0.0.14_darwin_arm64.zip'
+      sha256 '4ec7fc113963be97a2b27d5bde3356cbdd2954b96aa17d87c7317bec7dd1bb35'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/podbard/releases/download/v0.0.13/podbard_v0.0.13_darwin_amd64.zip'
-      sha256 '81602860a805e8a83f60949ffdd434708e8873953f5cfab066016a8c78d7c8cc'
+      url 'https://github.com/Songmu/podbard/releases/download/v0.0.14/podbard_v0.0.14_darwin_amd64.zip'
+      sha256 'de83055165fc83ec0bbc12227cc0fd2237cffebc52b7b227d5ebab65ad1dadfd'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/podbard/releases/download/v0.0.13/podbard_v0.0.13_linux_arm64.tar.gz'
-      sha256 '70e49763ee36234402a1a2eeb1a3674f8cf03481bd971dd56c445e0d34c79bc7'
+      url 'https://github.com/Songmu/podbard/releases/download/v0.0.14/podbard_v0.0.14_linux_arm64.tar.gz'
+      sha256 '91674935bdcd8002c03fe018f1e2ff13482cfdf969d28e9dfbc1a243661202c8'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/podbard/releases/download/v0.0.13/podbard_v0.0.13_linux_amd64.tar.gz'
-      sha256 'c948de954a2d8cbdd38aff19c9e4ab7b877769c6aa0e4f48120dfc2d20e1deb0'
+      url 'https://github.com/Songmu/podbard/releases/download/v0.0.14/podbard_v0.0.14_linux_amd64.tar.gz'
+      sha256 'f3f0d5ef09e8335b2a7da7db7afcc318e744d37e69a6792c59d424011f97eff4'
     end
   end
 
