@@ -1,26 +1,26 @@
 class Gh2changelog < Formula
-  version '0.5.0'
+  version '0.6.0'
   homepage 'https://github.com/Songmu/gh2changelog'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.5.0/gh2changelog_v0.5.0_darwin_arm64.zip'
-      sha256 '8ccef52c16090d965d57cc406a8642e00b14599452e70a5087984bf77ca5c014'
+      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.6.0/gh2changelog_v0.6.0_darwin_arm64.zip'
+      sha256 '2bc899fb416e6e1ec5572d4ce7b508ff4b3ac09d51dd571a4ad42054953e571b'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.5.0/gh2changelog_v0.5.0_darwin_amd64.zip'
-      sha256 '20d0c1f1bc176258b09c255fe89dff740b68ce735a758f27d3c7e3d6a79fa681'
+      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.6.0/gh2changelog_v0.6.0_darwin_amd64.zip'
+      sha256 'ed3f193c3b74c00ce520ce0c0e04372def3f9215510370ad7890fca6cef96141'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.5.0/gh2changelog_v0.5.0_linux_arm64.tar.gz'
-      sha256 '1dde49b12ed576b55dc4ddb09da10d95d11234b01d127fa486091e09205bf6f4'
+      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.6.0/gh2changelog_v0.6.0_linux_arm64.tar.gz'
+      sha256 '1dd5ecea0e540d5935856286cf73f44eb4d3c26061a23ea57781f32145b05f2b'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.5.0/gh2changelog_v0.5.0_linux_amd64.tar.gz'
-      sha256 '62d39bce873db1087d4ae2e410afe296fdc4f6c8f05c24a106caaf8180f77141'
+      url 'https://github.com/Songmu/gh2changelog/releases/download/v0.6.0/gh2changelog_v0.6.0_linux_amd64.tar.gz'
+      sha256 'd4744958c08af3a09a03552532dcfd854760d5f12b6748f9768a4f837a563b1f'
     end
   end
 
