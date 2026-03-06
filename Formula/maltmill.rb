@@ -1,26 +1,26 @@
 class Maltmill < Formula
-  version '1.3.0'
+  version '1.5.0'
   homepage 'https://github.com/Songmu/maltmill'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/maltmill/releases/download/v1.3.0/maltmill_v1.3.0_darwin_arm64.zip'
-      sha256 '9812d00fca69ca2acc6927185b2b2f3b2c8c0c08b534c640e039f85cb82829d0'
+      url 'https://github.com/Songmu/maltmill/releases/download/v1.5.0/maltmill_v1.5.0_darwin_arm64.zip'
+      sha256 'd1adee9f73487db8b27f33dc3c3ac3e7833d1f377def549a77ff46ef36447cfc'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/maltmill/releases/download/v1.3.0/maltmill_v1.3.0_darwin_amd64.zip'
-      sha256 '4eb80c1a3c640606e5e9ce966493c566c862dc1ea71c283978168ea1db131b63'
+      url 'https://github.com/Songmu/maltmill/releases/download/v1.5.0/maltmill_v1.5.0_darwin_amd64.zip'
+      sha256 '611a96b2bd5727fa708267bf65fc872803696c561c0b493a89d6ed96479e1b7a'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/maltmill/releases/download/v1.3.0/maltmill_v1.3.0_linux_arm64.tar.gz'
-      sha256 '4c68854cf7770ebd9faac804803821f5988a89de5d86bb0f1c07cb8eeb85a741'
+      url 'https://github.com/Songmu/maltmill/releases/download/v1.5.0/maltmill_v1.5.0_linux_arm64.tar.gz'
+      sha256 '83eff8b676614baecc9fe32be04627502caddea85b7a09d617a300f94a26ff8a'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/maltmill/releases/download/v1.3.0/maltmill_v1.3.0_linux_amd64.tar.gz'
-      sha256 '9408a4228717d2f65edc28bea62a22c493a668c2f8a45febb7266fa8ef2248b6'
+      url 'https://github.com/Songmu/maltmill/releases/download/v1.5.0/maltmill_v1.5.0_linux_amd64.tar.gz'
+      sha256 '30baaa14ffbf57cee77030cdc639ad561bac7ce2f40bb8e65333ba80e4032247'
     end
   end
 
