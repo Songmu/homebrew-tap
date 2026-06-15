@@ -1,6 +1,6 @@
 cask "octobiz" do
-  version "0.0.1"
-  sha256 "8987870d23a958782ec9a096114f03ae5b35a80da82ef106281250fe36bd9294"
+  version "0.1.0"
+  sha256 "48a25d23bedb2ddca6118fc36277edf7fd0bb2a67b2a2419e4cdfebacb8db485"
 
   url "https://github.com/Songmu/OctoBiz/releases/download/v#{version}/OctoBiz_v#{version}.zip"
   name "OctoBiz"
