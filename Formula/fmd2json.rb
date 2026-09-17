@@ -1,26 +1,26 @@
 class Fmd2json < Formula
-  version '0.0.3'
+  version '0.0.4'
   homepage 'https://github.com/Songmu/fmd2json'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.3/fmd2json_v0.0.3_darwin_arm64.zip'
-      sha256 'd5f8eb9bd7c38993caa6e179a3eabeff011c1f81203c0c0952f636739c6aa4c5'
+      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.4/fmd2json_v0.0.4_darwin_arm64.zip'
+      sha256 '9ed652b2792f936958e3cf8c9d68da78ee356e235cee03b37ff4b82dee539fb6'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.3/fmd2json_v0.0.3_darwin_amd64.zip'
-      sha256 'cb028d66f9e6e0c13d7a64ae6a97db9942228e80742a475c653d95c67b758855'
+      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.4/fmd2json_v0.0.4_darwin_amd64.zip'
+      sha256 '2b6b405324af3f3a4c0d18839acf8de837e54085b7579b38cd9c3745670e718a'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.3/fmd2json_v0.0.3_linux_arm64.tar.gz'
-      sha256 'c9c8ce450870eb3848445494a94125c4bbfa43170de7d7d4b08855f44d053fb5'
+      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.4/fmd2json_v0.0.4_linux_arm64.tar.gz'
+      sha256 '10dfb51ea88b834b45d24a62c31ee95a22ebc10a835912be7d96501dda037492'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.3/fmd2json_v0.0.3_linux_amd64.tar.gz'
-      sha256 '162dc5097eb0b8137fcb5fcb86a657144fca321f811e6d2676d749eadb660aa8'
+      url 'https://github.com/Songmu/fmd2json/releases/download/v0.0.4/fmd2json_v0.0.4_linux_amd64.tar.gz'
+      sha256 '8d3a73aafb33cacfb4ea1a2f9519a9286667af3f143452aa65f04141567927fd'
     end
   end
 
