@@ -1,26 +1,26 @@
 class Gocredits < Formula
-  version '0.4.0'
+  version '0.5.0'
   homepage 'https://github.com/Songmu/gocredits'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/gocredits/releases/download/v0.4.0/gocredits_v0.4.0_darwin_arm64.zip'
-      sha256 'cf0a3a867bbcdb765deed385854c2412caae0e1b74ba495ac43e2734021a085d'
+      url 'https://github.com/Songmu/gocredits/releases/download/v0.5.0/gocredits_v0.5.0_darwin_arm64.zip'
+      sha256 '8c156c5e53ed981d486ab968be1f412621cfb926304018bcbe1d75c9d7d639a0'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gocredits/releases/download/v0.4.0/gocredits_v0.4.0_darwin_amd64.zip'
-      sha256 'a0f275d152a85a82b4df6699c2a81f1024325e3a88a50628f667bc57cebf07e6'
+      url 'https://github.com/Songmu/gocredits/releases/download/v0.5.0/gocredits_v0.5.0_darwin_amd64.zip'
+      sha256 'e7395c8fbe31572b25f3de58088f1bd770c17c1d8c9e70b1f216d1c14dcbb419'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/gocredits/releases/download/v0.4.0/gocredits_v0.4.0_linux_arm64.tar.gz'
-      sha256 'f7788a74702b4f2418664ff7b81ffc7132996474ee7d8f88ef243a7d3033c23b'
+      url 'https://github.com/Songmu/gocredits/releases/download/v0.5.0/gocredits_v0.5.0_linux_arm64.tar.gz'
+      sha256 '0b0b519ded1467b78445ab1b2d61d4c6079759c757939d847dc845984d1144f0'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gocredits/releases/download/v0.4.0/gocredits_v0.4.0_linux_amd64.tar.gz'
-      sha256 '7b4a728038c621db56b7608ca0d438c3302c1726f429f3328f925bd0b52bc4a4'
+      url 'https://github.com/Songmu/gocredits/releases/download/v0.5.0/gocredits_v0.5.0_linux_amd64.tar.gz'
+      sha256 'b54ed76e6471c441d4012c33d13bd4351396f73f5f5984711a008f5a2b84be9d'
     end
   end
 
