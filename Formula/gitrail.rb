@@ -1,27 +1,27 @@
 class Gitrail < Formula
-  version '0.0.15'
+  version '0.0.21'
   homepage 'https://github.com/Songmu/gitrail'
   license 'MIT'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.15/gitrail_v0.0.15_darwin_arm64.zip'
-      sha256 '5381d04803e75511a43583369b9b400b916743faddef672ef39e53acd947a7ea'
+      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.21/gitrail_v0.0.21_darwin_arm64.zip'
+      sha256 '004cdddab46a9eac65b1c75ef405de6f286038c1c327f89de0dddf30dd97b3ff'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.15/gitrail_v0.0.15_darwin_amd64.zip'
-      sha256 '95b39021767c30273da44024b627ebf6b14abc22308744a6e9ab7b5f5f27f890'
+      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.21/gitrail_v0.0.21_darwin_amd64.zip'
+      sha256 '7ab28cfc8f8a684560804156240aa795eea7c41ac20e414fbfde0107363fb914'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.15/gitrail_v0.0.15_linux_arm64.tar.gz'
-      sha256 '5bcd7fc5e024d8cdfa6745196b7c2c51c653613935a95f05c81c95c7d1083d95'
+      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.21/gitrail_v0.0.21_linux_arm64.tar.gz'
+      sha256 '1aff299b2a12033f6877b521a22434ad573540dedb926b8f80bc83325e2c5c06'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.15/gitrail_v0.0.15_linux_amd64.tar.gz'
-      sha256 'ff51f560dbfbbf36506a7210380f048501907c36d17df9eb9701f51b4a3fe28a'
+      url 'https://github.com/Songmu/gitrail/releases/download/v0.0.21/gitrail_v0.0.21_linux_amd64.tar.gz'
+      sha256 'da756d7af3c0cc5ae345e0f67dc79661d959925d0b47c43543f56d1b5c7f5bbe'
     end
   end
 
