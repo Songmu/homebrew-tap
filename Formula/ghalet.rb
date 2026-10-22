@@ -1,27 +1,27 @@
 class Ghalet < Formula
-  version '0.0.5'
+  version '0.1.1'
   homepage 'https://github.com/Songmu/ghalet'
   license 'MIT'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/ghalet/releases/download/v0.0.5/ghalet_v0.0.5_darwin_arm64.zip'
-      sha256 'aa4302fc3110b8b549c0458253a57dfeafabaff08589c687fdd6969ebc45d25c'
+      url 'https://github.com/Songmu/ghalet/releases/download/v0.1.1/ghalet_v0.1.1_darwin_arm64.zip'
+      sha256 'aceefb20d97b7c76e6e1a88358f203b2fae7b1af9523f7e8fbe37d48598ee7da'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/ghalet/releases/download/v0.0.5/ghalet_v0.0.5_darwin_amd64.zip'
-      sha256 '339f4402320ae5c011e9c54d4e4b9895cc9d300135d90335caa6af2b70e3f322'
+      url 'https://github.com/Songmu/ghalet/releases/download/v0.1.1/ghalet_v0.1.1_darwin_amd64.zip'
+      sha256 'c242cdc6cd64aa7e021a7fc0bd1332b63658d828127ae207e8cab33c8d4476c5'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/ghalet/releases/download/v0.0.5/ghalet_v0.0.5_linux_arm64.tar.gz'
-      sha256 'a13b84debc6c04aacda9db1ed9fa4783003454515429a36cdf4fc67d3e908784'
+      url 'https://github.com/Songmu/ghalet/releases/download/v0.1.1/ghalet_v0.1.1_linux_arm64.tar.gz'
+      sha256 'cede1f0368d69b0b6113769422e0e492d6bd00d02fb88579b0df5273db1e8c6e'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/ghalet/releases/download/v0.0.5/ghalet_v0.0.5_linux_amd64.tar.gz'
-      sha256 '4633d675ad4386086ba8a1a0706ce77ccf757a8ec3369de52cbda7cb1d208df6'
+      url 'https://github.com/Songmu/ghalet/releases/download/v0.1.1/ghalet_v0.1.1_linux_amd64.tar.gz'
+      sha256 'f89de505b3ea4af7833f662c91129b6a752b8c963757f7ba0f379f1cac60a2de'
     end
   end
 
