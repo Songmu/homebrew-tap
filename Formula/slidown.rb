@@ -1,27 +1,27 @@
 class Slidown < Formula
-  version '0.0.10'
+  version '0.0.11'
   homepage 'https://github.com/Songmu/slidown'
   license 'MIT'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/slidown/releases/download/v0.0.10/slidown_v0.0.10_darwin_arm64.zip'
-      sha256 '7aef39bc4f3de97c822e95bf68fcc1073e6f32e0798e1e836883c1ade9b2b87c'
+      url 'https://github.com/Songmu/slidown/releases/download/v0.0.11/slidown_v0.0.11_darwin_arm64.zip'
+      sha256 'de745dfc08b4810e8beaf6f7858871a76e43b87f3eec8e276a4347e8b90d6040'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/slidown/releases/download/v0.0.10/slidown_v0.0.10_darwin_amd64.zip'
-      sha256 'a6f9e68b407fd186637dee7689f4f5f5af394b183222265508687350027b1a15'
+      url 'https://github.com/Songmu/slidown/releases/download/v0.0.11/slidown_v0.0.11_darwin_amd64.zip'
+      sha256 '654a7fcbc3fbd762bfaf66f3769ab8f373f5b2fd0278daddd578889ab5be6063'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/slidown/releases/download/v0.0.10/slidown_v0.0.10_linux_arm64.tar.gz'
-      sha256 '44e4dc120c1964cb080d6037fcf2d6d3254fb68c51d5544e0ace7ddbdadc1f71'
+      url 'https://github.com/Songmu/slidown/releases/download/v0.0.11/slidown_v0.0.11_linux_arm64.tar.gz'
+      sha256 '685382685cd0dce8de64f74059835a77d8840920ce1f6b6067d23bf09429a16e'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/slidown/releases/download/v0.0.10/slidown_v0.0.10_linux_amd64.tar.gz'
-      sha256 '445037bc6c8363cfb420751c691bb8537ed8a750cee8c0c4a6470208a72910f8'
+      url 'https://github.com/Songmu/slidown/releases/download/v0.0.11/slidown_v0.0.11_linux_amd64.tar.gz'
+      sha256 '174fa1fd0eea6212eec7b574108fb7721480e82471a04cf0d7e1dad39aee328b'
     end
   end
 
