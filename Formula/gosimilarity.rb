@@ -1,27 +1,27 @@
 class Gosimilarity < Formula
-  version '0.0.2'
+  version '0.0.5'
   homepage 'https://github.com/Songmu/gosimilarity'
   license 'MIT'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.2/gosimilarity_v0.0.2_darwin_arm64.zip'
-      sha256 '2ce3c5f00575f0950e9a100062b9e8362eee1d9048c11745687784a252306120'
+      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.5/gosimilarity_v0.0.5_darwin_arm64.zip'
+      sha256 '9a425edf45061776f27898eec3ac7c4b6b9289f50871a52b846f603f8da7e936'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.2/gosimilarity_v0.0.2_darwin_amd64.zip'
-      sha256 '19601c441b97bbe878be9049ccdec993c785c5031ea2dc923176edd3f4764e70'
+      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.5/gosimilarity_v0.0.5_darwin_amd64.zip'
+      sha256 '41454448c0b4279b199a3f933ce43f88b7d10344e37a94615f86f4a8ffb1baec'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.2/gosimilarity_v0.0.2_linux_arm64.tar.gz'
-      sha256 '1ddb22e2543e0e9761471de0cb3f13462a49749ffbd23b1f5a385345139e54ef'
+      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.5/gosimilarity_v0.0.5_linux_arm64.tar.gz'
+      sha256 '06f360375fc2335d3c4386783245643f2152634ebef85b4be5efd51a5ad0412f'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.2/gosimilarity_v0.0.2_linux_amd64.tar.gz'
-      sha256 'a0d82974553f1b6f8053572211b1a2bd433fffea3fabd4cf1629cb50f04020e3'
+      url 'https://github.com/Songmu/gosimilarity/releases/download/v0.0.5/gosimilarity_v0.0.5_linux_amd64.tar.gz'
+      sha256 '5f347265c2fb671a7924d67f0a2b65d9b9a6b4f54efd43e47e5ce35096ab153d'
     end
   end
 
