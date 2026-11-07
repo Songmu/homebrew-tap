@@ -1,26 +1,26 @@
 class R2sync < Formula
-  version '0.0.4'
+  version '0.0.8'
   homepage 'https://github.com/Songmu/r2sync'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.4/r2sync_v0.0.4_darwin_arm64.zip'
-      sha256 '160e0826e2768a027f66531a9b309b77023bf3d01075ecd596e63723c2d59af4'
+      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.8/r2sync_v0.0.8_darwin_arm64.zip'
+      sha256 '36401d86c4ad948dab2a6ee6b543fa24ddc53e7a507f0eec6772b1b468968e6a'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.4/r2sync_v0.0.4_darwin_amd64.zip'
-      sha256 '5235463723ee42057f33d8544b2bfc5e783514adb03e754e3996f2c6e95d31f3'
+      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.8/r2sync_v0.0.8_darwin_amd64.zip'
+      sha256 '7fb823bcf8e789818ea564a495db02d67deeb39ea37f840a601d18ef44d79bf5'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.4/r2sync_v0.0.4_linux_arm64.tar.gz'
-      sha256 'f117dabbcf14fdf0a37f4e3a89557fbec6e5ef23a71c788cbf3c10fdc3c96554'
+      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.8/r2sync_v0.0.8_linux_arm64.tar.gz'
+      sha256 'f7fa55e5c215f89afa8187d1ae1a40401321dc430fc3d44dbb4ba0d060107374'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.4/r2sync_v0.0.4_linux_amd64.tar.gz'
-      sha256 'aa673957963114d6dd86ec1212138eefb1ecf9f49525b76436e529625ab4f39f'
+      url 'https://github.com/Songmu/r2sync/releases/download/v0.0.8/r2sync_v0.0.8_linux_amd64.tar.gz'
+      sha256 '6283cab21e312debcb93a33bbda2ee3f73897ee92c953dedcc979502d2eff36c'
     end
   end
 

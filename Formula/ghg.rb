@@ -1,9 +1,9 @@
 class Ghg < Formula
 
-  version '0.3.2'
+  version '0.3.3'
   homepage 'https://github.com/Songmu/ghg'
   url "https://github.com/Songmu/ghg/releases/download/v#{version}/ghg_v#{version}_darwin_amd64.zip"
-  sha256 '4d9b45a4b38b185b3809ac8192f653848bd0a99e4d86e7c29aac60951f178bf7'
+  sha256 'fe9920ec11d3b4024f0f863336a9b8d2be4413026d53a9b7ab1c4c1ba0b059c7'
 
   head do
     url 'https://github.com/Songmu/ghg.git'
