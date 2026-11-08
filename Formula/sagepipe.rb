@@ -1,27 +1,27 @@
 class Sagepipe < Formula
-  version '0.0.3'
+  version '0.0.4'
   homepage 'https://github.com/Songmu/sagepipe'
   license 'MIT'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.3/sagepipe_v0.0.3_darwin_arm64.zip'
-      sha256 '023d3db32da26853b7e6e6b31548dca97dda783ec57029cd5b02871b75c43078'
+      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.4/sagepipe_v0.0.4_darwin_arm64.zip'
+      sha256 'aff7a41505ca2572cb44826fc58beaefff8b25d1be510f273642bc01d60c782b'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.3/sagepipe_v0.0.3_darwin_amd64.zip'
-      sha256 '3421cab5f35f871e59de273d152fc4b84a57456447d2f62d25117af50bde389c'
+      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.4/sagepipe_v0.0.4_darwin_amd64.zip'
+      sha256 '3ba1a8312c009f60f94844ab1bf009827d8e8ee92805b0bcd497b173117d1ac1'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.3/sagepipe_v0.0.3_linux_arm64.tar.gz'
-      sha256 '6f70878d03b40e6740c798434664ef19b484e74c6fa8b5a630a1c51481ed0a27'
+      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.4/sagepipe_v0.0.4_linux_arm64.tar.gz'
+      sha256 'aa3b01ddc20b590f60d3da65b2e2fed0106b10e3324a028d40b734a5d6a689cb'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.3/sagepipe_v0.0.3_linux_amd64.tar.gz'
-      sha256 'b72b713e78c1118680362ff7878b5b9d2be29ddf4034bc2be5669e77230e7645'
+      url 'https://github.com/Songmu/sagepipe/releases/download/v0.0.4/sagepipe_v0.0.4_linux_amd64.tar.gz'
+      sha256 '35707c74e762fc1dcf9bcb5ba3c88512443f96b37d57fcdc8482879757a4176c'
     end
   end
 
